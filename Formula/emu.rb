@@ -28,4 +28,4 @@ class Emu < Formula
   end
 end
 
-# Updated: 2025-06-11T07:01:13Z
+# Updated: 2025-06-11T07:30:58Z
