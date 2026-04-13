@@ -1,22 +1,22 @@
 class Emu < Formula
   desc "TUI for managing Android emulators and iOS simulators"
   homepage "https://github.com/wasabeef/emu"
-  version "1.1.1"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/wasabeef/emu/releases/download/v1.1.1/emu-Darwin-aarch64.tar.gz"
-      sha256 "6d327c900e98bdc6e89efff8ac1c5cb3bb577db3a81ba63b4194e5c8098574c2"
+      url "https://github.com/wasabeef/emu/releases/download/v1.2.0/emu-Darwin-aarch64.tar.gz"
+      sha256 "bd738e7f86fe13e7aacc2926361db91c4eee016986ba5afc786759bf0951d519"
     else
-      url "https://github.com/wasabeef/emu/releases/download/v1.1.1/emu-Darwin-x86_64.tar.gz"
-      sha256 "2fd33e9ae9890c537de34c4dee86ebd2dcd40f6229f5664a59741011a51fb621"
+      url "https://github.com/wasabeef/emu/releases/download/v1.2.0/emu-Darwin-x86_64.tar.gz"
+      sha256 "39b965775a0c4499d8c5b3126634291af67af0cbe283aa86401744b34d6c215d"
     end
   end
 
   on_linux do
-    url "https://github.com/wasabeef/emu/releases/download/v1.1.1/emu-Linux-x86_64.tar.gz"
-    sha256 "3cd4e1bd1d9bbdeb6449fc96c86659e022e679033eb9f00838dd4e214007b417"
+    url "https://github.com/wasabeef/emu/releases/download/v1.2.0/emu-Linux-x86_64.tar.gz"
+    sha256 "708e4a4437aeff8b2d3ca9046e327928afd2072842408183f4de6c339ad45d79"
   end
 
   def install
@@ -28,4 +28,4 @@ class Emu < Formula
   end
 end
 
-# Updated: 2026-04-08T10:19:42Z
+# Updated: 2026-04-13T08:15:09Z
